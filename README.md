@@ -33,11 +33,6 @@ This is a simple TTask Management Application built with React. It allows users 
 
 The application uses CSS for styling. The design focuses on a clean and simple user interface.
 
-### Priority Colors
-
-- Low priority: Green
-- Medium priority: Yellow
-- High priority: Red
 
 ## Additional Features
 
