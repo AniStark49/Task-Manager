@@ -1,0 +1,73 @@
+
+
+.edit-task-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-task-container {
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  border-radius: 8px;
+  padding: 20px;
+}
+
+.edit-task-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-task-form {
+  display: grid;
+  gap: 16px;
+}
+
+.edit-task-form label {
+  font-size: 16px;
+  color: #333;
+}
+
+.edit-task-form textarea,
+.edit-task-form input,
+.edit-task-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.edit-task-form textarea {
+  height: 100px;
+}
+
+.edit-task-form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-task-form button[type="button"] {
+  background-color: #ff5555;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+ 
+}
+
+
