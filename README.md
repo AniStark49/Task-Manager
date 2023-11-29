@@ -1,7 +1,7 @@
 
-# Todo List App
+# Task Management Application
 
-This is a simple Todo List application built with React. It allows users to add, edit, delete, and mark tasks as completed.
+This is a simple TTask Management Application built with React. It allows users to add, edit, delete, and mark tasks as completed.
 
 ## Project Structure
 
