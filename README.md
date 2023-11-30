@@ -58,8 +58,5 @@ Run `npm test` to execute unit tests.
 
 Feel free to contribute by opening issues or submitting pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 ```
 
