@@ -1,8 +1,7 @@
-// TaskList.jsx
 import React, { useContext, useState } from 'react';
 import { TaskContext } from '../Context/TaskContext';
-import EditTask from './EditTask'; // Import EditTask component
-import './TaskList.css'; // Import the CSS file for styling
+import EditTask from './EditTask'; 
+import './TaskList.css'; 
 
 const TaskList = () => {
   const { tasks, editTask, toggleTask, deleteTask } = useContext(TaskContext);

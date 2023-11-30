@@ -1,7 +1,7 @@
 
 # Todo List App
 
-This is a simple Todo List application built with React. It allows users to add, edit, delete, and mark tasks as completed.
+This is a simple Task Management Application built with React. It allows users to add, edit, delete, and mark tasks as completed.
 
 ## Project Structure
 
@@ -33,11 +33,11 @@ This is a simple Todo List application built with React. It allows users to add,
 
 The application uses CSS for styling. The design focuses on a clean and simple user interface.
 
-### Priority Colors
+### Priority
 
-- Low priority: Green
-- Medium priority: Yellow
-- High priority: Red
+- Low priority
+- Medium priority
+- High priority
 
 ## Additional Features
 
@@ -62,10 +62,3 @@ Run `npm test` to execute unit tests.
 ## Contributing
 
 Feel free to contribute by opening issues or submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-Customize the content based on your actual project details, design choices, and features. If there are additional sections or information you'd like to include, feel free to modify the template accordingly.

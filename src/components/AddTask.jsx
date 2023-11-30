@@ -1,4 +1,4 @@
-// AddTask.js
+
 import React, { useState, useContext } from 'react';
 import { TaskContext } from '../Context/TaskContext';
 import './AddTask.css';
@@ -68,7 +68,7 @@ const AddTask = () => {
           </select>
         </div>
         <button type="submit" className="addtask-btn">
-          Add Task
+          Add the Task
         </button>
       </form>
     </div>
