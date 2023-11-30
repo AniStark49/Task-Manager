@@ -63,4 +63,3 @@ Feel free to contribute by opening issues or submitting pull requests.
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 ```
 
-Customize the content based on your actual project details, design choices, and features. If there are additional sections or information you'd like to include, feel free to modify the template accordingly.
