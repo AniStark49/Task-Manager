@@ -1,5 +1,5 @@
 
-# Todo List App
+# Task Management Application
 
 This is a simple Task Management Application built with React. It allows users to add, edit, delete, and mark tasks as completed.
 
@@ -33,11 +33,15 @@ This is a simple Task Management Application built with React. It allows users t
 
 The application uses CSS for styling. The design focuses on a clean and simple user interface.
 
+
 ### Priority
 
 - Low priority
 - Medium priority
 - High priority
+
+=======
+
 
 ## Additional Features
 
@@ -62,3 +66,10 @@ Run `npm test` to execute unit tests.
 ## Contributing
 
 Feel free to contribute by opening issues or submitting pull requests.
+
+=======
+
+
+```
+
+

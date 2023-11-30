@@ -16,6 +16,7 @@ test('renders EditTask component and updates a task', () => {
   fireEvent.change(screen.getByLabelText(/Edit Task Name/i), { target: { value: 'Updated Task' } });
   fireEvent.click(screen.getByText(/Save Changes/i));
 
+
   expect(updateTaskMock).toHaveBeenCalledWith(
     expect.objectContaining({ name: 'Updated Task' })
   );

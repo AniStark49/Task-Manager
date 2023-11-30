@@ -17,6 +17,7 @@ test('renders AddTask component and adds a task', () => {
   );
 
   fireEvent.change(screen.getByLabelText(/Task Name/i), { target: { value: 'New Task' } });
+
   fireEvent.click(screen.getByText(/Add the Task/i));
   
   expect(contextValues.addTask).toHaveBeenCalledWith(
@@ -25,4 +26,11 @@ test('renders AddTask component and adds a task', () => {
 
   expect(screen.getByLabelText(/Task Name/i).value).toBe('');
 
+
+  fireEvent.click(screen.getByText(/Add Task/i));
+
+
+  expect(contextValues.addTask).toHaveBeenCalledWith(
+    expect.objectContaining({ name: 'New Task' })
+  );
 });
