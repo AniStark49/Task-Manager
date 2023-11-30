@@ -1,7 +1,7 @@
 
 # Task Management Application
 
-This is a simple TTask Management Application built with React. It allows users to add, edit, delete, and mark tasks as completed.
+This is a simple Task Management Application built with React. It allows users to add, edit, delete, and mark tasks as completed.
 
 ## Project Structure
 
